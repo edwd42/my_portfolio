@@ -1,3 +1,12 @@
+# My Portfolio - a ReactJS Portfolio App
+
+This project closely follows this react tutorial => https://www.youtube.com/watch?v=9AboneIxeM8&list=PL3KAvm6JMiowqFTXj3oPQkhP7aCgRHFTm
+but also adds aspects of other react videos and tutorials that I blend in to make my own react app, showcasing my CareerDevs Computer Science University experience.
+
+Built with create-react-app, and React-MDL
+React Components for Material Design Lite
+https://tleunen.github.io/react-mdl/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
