@@ -4,7 +4,7 @@ class Blog extends Component {
   render() {
     return (
       <div>
-        <h1>Blog Page</h1>
+        <h1>This is a blog I call Code Soup</h1>
       </div>
     );
   }
