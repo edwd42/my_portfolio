@@ -36,7 +36,10 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent className="list-item-content">
                     <i className="fa fa-envelope-open-o" aria-hidden="true" />
-                    edward.dupre@edwd42.com
+
+                    <a href="mailto:edward.dupre@edwd42.com">
+                      edward.dupre@edwd42.com
+                    </a>
                   </ListItemContent>
                 </ListItem>
 

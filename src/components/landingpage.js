@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import { Cell, Grid } from "react-mdl";
 
 class Landing extends Component {
   render() {
@@ -16,9 +16,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Edward Dupre</h1>
               <h1>Full Stack Web Developer</h1>
-
               <hr />
-
               <p>
                 HTML/CSS | Bootstrap | JavaScript | React | React Native |
                 NodeJS | Express | MongoDB
