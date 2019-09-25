@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
   Button,
+  Card,
+  CardActions,
   CardMenu,
+  CardText,
+  CardTitle,
+  Cell,
+  Grid,
   IconButton
 } from "react-mdl";
 
@@ -33,21 +31,38 @@ class Projects extends Component {
                   "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
               }}
             >
-              React Project #1
+              Java Web Scraper
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              This web scraper project is a demonstration of combining what I
+              have learned about Java, React and JavaScript, and MongoDB.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored>
+                <a
+                  href="https://github.com/edwd42/scraper_view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </Button>
+
+              <Button colored>
+                <a
+                  href="http://yahoo-scraper.s3-website-us-east-1.amazonaws.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
           {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
@@ -73,6 +88,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
@@ -124,7 +140,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <Tabs
+        {/* <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
@@ -133,10 +149,22 @@ class Projects extends Component {
           <Tab>Angular</Tab>
           <Tab>VueJS</Tab>
           <Tab>MongoDB</Tab>
-        </Tabs>
+        </Tabs> */}
 
         <Grid>
           <Cell col={12}>
+            <div
+              style={{
+                width: "100%",
+                margin: "auto",
+                textAlign: "center",
+                fontSize: "36px",
+                padding: "0 0 20px 0"
+              }}
+            >
+              {" "}
+              Projects Showcase
+            </div>
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
         </Grid>
